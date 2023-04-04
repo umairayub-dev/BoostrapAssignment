@@ -13,7 +13,29 @@ section {
     min-height: 100vh;
     width: 100%;
 }
+.text-gray-200 {
 
+    color: #E4E4E7;
+
+}
+
+.text-gray-300 {
+
+    color: #D4D4D8;
+
+}
+
+.text-gray-400 {
+
+    color: #A1A1AA;
+
+}
+
+.text-gray-500 {
+
+    color: #71717A;
+
+}
 .text-purple-600 {
     color: #8B5CF6;
 }

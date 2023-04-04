@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-purple-700 nav-color-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MyFlix</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movies.html">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TV Shows</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Genres
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Adventure</a></li>
+                                <li><a class="dropdown-item" href="#">Animation</a></li>
+                                <li><a class="dropdown-item" href="#">Biography</a></li>
+                                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                                <li><a class="dropdown-item" href="#">Crime</a></li>
+                                <li><a class="dropdown-item" href="#">Documentary</a></li>
+                                <li><a class="dropdown-item" href="#">Drama</a></li>
+                                <li><a class="dropdown-item" href="#">Family</a></li>
+                                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                                <li><a class="dropdown-item" href="#">Film Noir</a></li>
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="#">Horror</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn border border-white text-white " type="submit"><i
+                                class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero -->
+        <section class="d-flex justify-content-center align-items-center text-white"
+            style="background-image: url('./images/bg-hero.png'); background-repeat: no-repeat; background-size: cover;">
+            <div class="container text-center">
+                <h1 class="fw-bolder lh-base display-4">Watch Free Movies With MyFlex.</h1>
+                <h3>Stop searching for free movie websites and watch MyFlex now.</h3>
+                <a href="/movies.html" class="btn btn-lg cta fw-bold bg-purple-700 mt-3">Browse Movies</a>
+            </div>
+        </section>
+        <!-- Hero End -->
+
+        <!-- Content -->
+        <section>
+            <div class="container align-items-center py-5">
+                <div class="d-flex flex-column py-5">
+                    <div class="d-flex flex-row border-bottom justify-content-between text-center align-items-center text-white">
+                        <h1 class="display-6">Popular Movies</h1>
+                        <a href="/movies.html"
+                            class="text-decoration-underline text-purple-300 cta fw-bold  mt-3">Browse</a>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap py-5">
+                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer" data-aos="fade-down"><img class="rounded-4 shadow"
+                                src="./images/mov1.jpg" alt="" srcset=""></div>
+                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer" data-aos="fade-down"><img class="rounded-4 shadow"
+                                src="./images/mov11.jpg" alt="" srcset=""></div>
+                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer" data-aos="fade-up"><img class="rounded-4 shadow"
+                                src="./images/mov21.jpg" alt="" srcset=""></div>
+                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer" data-aos="fade-left"><img class="rounded-4 shadow"
+                                src="./images/mov30.jpg" alt="" srcset=""></div>
+                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer" data-aos="fade-right"><img class="rounded-4 shadow"
+                                src="./images/mov23.jpg" alt="" srcset=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content -->
+        <!-- Featured -->
+        <section>
+            <div class="container py-5">
+                <h2 class="pb-2 border-bottom text-white">Featured Movies</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover border-0 h-100 cursor-pointer card-hover overflow-hidden rounded-4 shadow-lg" data-aos="fade-down">
+                            <img class="w-100 h-100" src="./images/s-1.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover border-0 h-100 cursor-pointer card-hover overflow-hidden rounded-4 shadow-lg" data-aos="fade-up">
+                            <img class="w-100 h-100" src="./images/s-2.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover border-0 h-100 cursor-pointer card-hover overflow-hidden rounded-4 shadow-lg" data-aos="fade-left">
+                            <img class="w-100 h-100" src="./images/s-3.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover border-0 h-100 cursor-pointer card-hover overflow-hidden rounded-4 shadow-lg" data-aos="fade-right">
+                            <img class="w-100 h-100" src="./images/s-4.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover border-0 h-100 cursor-pointer card-hover overflow-hidden rounded-4 shadow-lg" data-aos="fade-right">
+                            <img class="w-100 h-100" src="./images/s-5.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured End -->
+
+    </main>
+    <footer class="bg-purple-900">
+        <div class="container py-3">
+            <h5 class="text-white mb-3">Subscribe to our Newsletter</h5>
+            <form action="#">
+                <div class="input-group mb-3">
+                    <input class="form-control" type="text" placeholder="Email Address"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary" type="button"><i class="bi bi-check"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="container justify-content-center p-2">
+            <div class="row justify-content-center align-items-center p-5">
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-decoration-none">
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Home</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">About Us</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Movies</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Tv Shows</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-decoration-none">
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Help Center</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Jobs</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Legal Notices</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Account</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-decoration-none">
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Ways to Watch</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Corporate Information</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Terms of use</a></li>
+                        <li><a href="#" class="text-decoration-underline text-gray-200">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="d-md-flex justify-content-between align-items-center border-top">
+                    <div class="d-flex">
+                        <p>Copyright &copy; 2023 MFlix</p>
+                        <a href="#" class="text-decoration-underline ms-2 text-white">Privacy & Legal</a>
+                        <a>
+                            <a href="#" class="text-decoration-underline ms-2 text-white">Accessibility</a>
+                            <a>
+                    </div>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#" class="text-decoration-none"><i class="bi bi-facebook p-2 text-white"
+                                    style="font-size: 2em;"></i></a></li>
+                        <li><a href="#" class="text-decoration-none"><i class="bi bi-twitter p-2 text-white"
+                                    style="font-size: 2em;"></i></a></li>
+                        <li><a href="#" class="text-decoration-none"><i class="bi bi-instagram p-2 text-white"
+                                    style="font-size: 2em;"></i></a></li>
+                        <li><a href="#" class="text-decoration-none"><i class="bi bi-youtube p-2 text-white"
+                                    style="font-size: 2em;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>

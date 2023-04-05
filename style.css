@@ -51,7 +51,17 @@ section {
 .text-purple-900 {
     color: #5B21B6;
 }
+.bg-purple-200 {
+    background-color:#CE93D8;
+}
 
+.bg-purple-300 {
+    background-color:#BA68C8;
+}
+
+.bg-purple-400 {
+    background-color:#7E57C2;
+}
 .bg-purple-700 {
     background-color: #7C3AED;
     color: white;

@@ -73,16 +73,45 @@
         </nav>
     </header>
     <main class="text-white">
-        
         <div class="container-fluid d-flex flex-column p-5 justify-content-center text-align-center align-items-center">
             <div class="container">
                 <nav aria-label="breadcrumb" class="bg-purple-400 rounded">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item p-2"><a class="text-white" href="index.html">Home</a></li>
-                      <li class="breadcrumb-item p-2 active" style="color: rgb(221, 220, 220)!important;" aria-current="page">Movies</li>
+                        <li class="breadcrumb-item p-2"><a class="text-white" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item p-2 active" style="color: rgb(221, 220, 220)!important;"
+                            aria-current="page">Movies</li>
                     </ol>
-                  </nav>
-                  <h1>Our Movies</h1>
+                </nav>
+
+                <div id="movieCarousel" class="carousel slide mb-2" data-bs-ride="carousel">
+                    <ul class="carousel-indicators list-unstyled">
+                        <li data-bs-target="#movieCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#movieCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#movieCarousel" data-bs-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/s-1.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/s-5.png" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/s-4.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#movieCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#movieCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+
+                
+                <h1>Our Movies</h1>
                 <div class="row row-cols-1 row-cols-sm-3 row-cols-md-5 g-3">
                     <div class="col">
                         <a href="movie-details.html">
@@ -314,7 +343,7 @@
                         <li class="page-item"><a class="page-link" href="#">4</a></li>
                         <li class="page-item"><a class="page-link" href="#">...</a></li>
                         <li class="page-item"><a class="page-link" href="#">10</a></li>
-                        
+
                         <li class="page-item">
                             <a class="page-link" href="#">Next</a>
                         </li>

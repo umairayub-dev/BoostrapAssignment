@@ -84,7 +84,7 @@ section {
 }
 .card-hover:hover {
     transition: 0.6s ease;
-    transform: scale(1.1)!important;
+    transform: rotate(-4deg)!important;
 }
 .cursor-pointer {
     cursor: pointer;
